@@ -1,0 +1,28 @@
+<div class="container-fluid">
+    <div class="row">
+        <div id="cardSeries" class="card" *ngFor="let series of series">
+            <img src='{{ series.Poster }}' class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{ series.Title }}</h5>
+                <div class="row">
+                    <div class="col-5">
+                        Director:
+                    </div>
+                    <div class="col-7">
+                        {{ series.Director }}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5">
+                        Year:
+                    </div>
+                    <div class="col-7">
+                        {{ series.Year }}
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="btn btn-primary">View serie</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+<div class="container-fluid">
+    <div class="row">
+        <div id="cardSongs" class="card" *ngFor="let songs of songs">
+            <img src='{{ songs.Poster }}' class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{ songs.Title }}</h5>
+                <div class="row">
+                    <div class="col-5">
+                        Artistas:
+                    </div>
+                    <div class="col-7">
+                        {{ songs.Director }}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5">
+                        Year:
+                    </div>
+                    <div class="col-7">
+                        {{ songs.Year }}
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="btn btn-primary">View Songs</a>
+            </div>
+        </div>
+    </div>
+</div>

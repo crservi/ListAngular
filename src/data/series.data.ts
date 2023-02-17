@@ -1,0 +1,43 @@
+
+export const seriesData = [  
+    {
+      Title: "MIÉRCOLES",
+      Year: "2022",
+      Released: "22 Dec 1967",
+      Director: "Tim Burton ",
+      Country: "USA",
+      Category: "Fantasía, Comedia de terror, Sobrenatural, Ficción sobrenatural, Coming-of-age",
+      Poster: "https://media.revistagq.com/photos/63c7e66fb1d957252085d0b0/master/w_1920%2Cc_limit/miercoles-int.jpeg",
+      imdbRating: "8.1",
+    },
+    {
+      Title: "LOS BRIDGERTON",
+      Year: "2020",
+      Released: "10 Nov 2007",
+      Director: "Shonda Rhimes",
+      Country: "USA",
+      Category: "Thriller",
+      Poster: "https://media.revistagq.com/photos/624439177e3f6c423b544637/master/w_1920%2Cc_limit/los-bridgerton.jpg",
+      imdbRating: "8.1",
+    },
+    {
+      Title: "THE CROWN",
+      Year: "2016",
+      Released: "10 Nov 1997",
+      Director: "Peter Morgan",
+      Country: "USA", 
+      Category: "Drama", 
+      Poster: "https://media.revistagq.com/photos/628cc575fe4d9461c134cdac/master/w_1920%2Cc_limit/the-crown.jpeg",
+      imdbRating: "8.1",
+    },
+    {
+      Title: "STRANGER THINGS",
+      Year: "2016",
+      Released: "10 Nov 1998",
+      Director: "Matt Duffer",
+      Country: "USA", 
+      Category: "Science Fiction", 
+      Poster: "https://media.revistagq.com/photos/5ca5e16e267a32c87472144a/master/w_1920%2Cc_limit/series_de_netflix_con_mejores_criticas_707344199.jpg",
+      imdbRating: "8.1",
+    },
+  ];
